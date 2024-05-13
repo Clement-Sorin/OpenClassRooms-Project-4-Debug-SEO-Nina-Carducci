@@ -190,6 +190,10 @@ body {
 	z-index: 1;
 }
 
+.h4-services {
+	font-size: 1.75rem;
+}
+
 #contact {
 	margin: auto;
 	background-color: #D8D3A8 ;
