@@ -218,7 +218,6 @@ body {
 }
 .form-container {
 	flex : 2;
-
 }
 form {
 	display: flex;
@@ -247,6 +246,11 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+#contact-details {
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
 }
 
 @media all and (max-width: 1180px) {
@@ -357,6 +361,9 @@ input[type="submit"] {
 	}
 	.picture {
 		width: 80%;
+	}
+	.about-me__introduction{
+		width: 100%;
 	}
 }
 
