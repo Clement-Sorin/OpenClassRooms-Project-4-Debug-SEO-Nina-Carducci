@@ -358,18 +358,7 @@ input[type="submit"] {
 		padding-block: 1em;
 		text-align: center;
 	}
-	#main-img-desk {
-		display: none;
-	}
-	#main-img-mobile{
-		display: block;
-	}
-	#img-nina-desk {
-		display: none;
-	}
-	#img-nina-mobile {
-		display: block;
-	}
+
 	.picture.left::before, .picture.right::before {
 		height: 150px;
 	}
