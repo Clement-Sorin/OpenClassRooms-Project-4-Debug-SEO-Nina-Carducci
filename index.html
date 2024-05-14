@@ -14,10 +14,11 @@
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 		<script src="./assets/maugallery.js"></script>
 		<script src="./assets/scripts.js"></script>
+		<meta property="priceRange" content="€€"></meta>
 	</head>
-	<body>
+	<body vocab="https://schema.org/" typeof="ProfessionalService">
 		<header class="top-header">
-			<h1 class="name">Nina Carducci</h1>
+			<h1 class="name" property="name">Nina Carducci</h1>
 			<nav class="nav">   
 				<ul>
 					<li><a href="#about">About</a></li>
@@ -38,7 +39,7 @@
 					</div>
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" class="d-block w-100" alt="photography by Nina Carducci: a man wearing black suit walking on a pedestrian crossing">
+							<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" class="d-block w-100" alt="photography by Nina Carducci: a man wearing black suit walking on a pedestrian crossing" property="image">
 						</div>
 						<div class="carousel-item">
 							<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp" class="d-block w-100" alt="photography by Nina Carducci: a crowd of people cheering in delight at a show">
@@ -156,17 +157,16 @@
 					<img id="img-camera" src="./assets/images/camera.webp" alt="close-up of a vintage camera, dark ambiance with orange lights">
 				</div>
 			</div>
-			<div class="container" id="contact-details" vocab="https://schema.org/" typeof="ProfessionalService">
-				<span property="name">Nina Carducci</span>
+			<div class="container" id="contact-details">
+				<time property="openingHours" datetime="Mo,Tu,We,Th,Fr 10:00-19:00">Open Monday to Friday, 10am to 7pm</time>
 				<div property="address" typeof="PostalAddress">
 					<span property="streetAddress">68 avenue Alsace-Lorraine</span><br>
 					<span property="postalCode">33200</span>
 					<span property="addressLocality">Bordeaux</span>
 					<span>, </span>
-					<span property="addressCountry">France</span>
+					<span property="addressCountry" content="FR">France</span>
 				</div>
 				<span property="telephone">+33 5 56 67 78 89</span>
-				<time property="openingHours" datetime="Mo,Tu,We,Th,Fr 10:00-19:00">Open Monday to Friday, 10am to 7pm</time>
 				</div>
 			</div>
 		</footer>
