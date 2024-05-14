@@ -42,20 +42,6 @@ body {
 	width: 20px;
 }
 
-#main-img-desk {
-	display: block;
-}
-
-#main-img-mobile{
-	display: none;
-}
-#img-nina-desk {
-	display: block;
-}
-#img-nina-mobile {
-	display: none;
-}
-
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -358,7 +344,6 @@ input[type="submit"] {
 		padding-block: 1em;
 		text-align: center;
 	}
-
 	.picture.left::before, .picture.right::before {
 		height: 150px;
 	}
